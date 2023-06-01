@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rhte22-devsecops-app
+  name: demo-devsecops-app
   labels:
-    app: rhte22-devsecops-app
+    app: demo-devsecops-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: rhte22-devsecops-app
+      app: demo-devsecops-app
   template:
     metadata:
       labels:
-        app: rhte22-devsecops-app
+        app: demo-devsecops-app
     spec:
       containers:
-      - name: rhte22-devsecops-app
-        image: quay.io/mavazque/rhte22-devsecops-app:latest
+      - name: demo-devsecops-app
+        image: quay.io/mavazque/demo-devsecops-app:latest
         ports:
         - containerPort: 8080
           name: http
