@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-devsecops-app
-        image: quay.io/mavazque/demo-devsecops-app:latest
+        image: quay.io/xymox/demo-devsecops-app:latest
         ports:
         - containerPort: 8080
           name: http
