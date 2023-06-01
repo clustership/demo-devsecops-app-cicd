@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: rhte22-devsecops-app-dev
+  name: demo-devsecops-app-dev
