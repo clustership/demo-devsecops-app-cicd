@@ -6,7 +6,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: pipeline
-  namespace: rhte22-devsecops-app-ci
+  namespace: demo-cicd-secure
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

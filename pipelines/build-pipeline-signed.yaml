@@ -36,7 +36,7 @@ spec:
     - name: NAMESPACE
       description: Namespace where the pipeline will run
       type: string
-      default: rhte22-devsecops-app-ci
+      default: demo-cicd-secure
     - name: ARGOCD_NAMESPACE
       description: Namespace where ArgoCD runs
       type: string

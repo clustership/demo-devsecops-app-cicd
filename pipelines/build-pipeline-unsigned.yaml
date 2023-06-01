@@ -29,7 +29,7 @@ spec:
       default: "latest"
     - name: SOURCE_URL
       description: A git repo url where the source code resides.
-      default: "https://github.com/clustership/demo-devsecops-app-cicd.git"
+      default: "https://github.com/ocp-tigers/rhte22-devsecops-app.git"
     - name: SOURCE_REFERENCE
       description: The branch, tag or SHA to checkout.
       default: "main"

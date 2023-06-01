@@ -26,7 +26,8 @@ spec:
     - env:
         - name: COSIGN_EXPERIMENTAL
           value: "1"
-      image: "gcr.io/projectsigstore/cosign:v1.13.1"
+      # image: "gcr.io/projectsigstore/cosign:v1.13.1"
+      image: "gcr.io/projectsigstore/cosign:v2.0.2"
       name: cosign
       resources: {}
       script: >
